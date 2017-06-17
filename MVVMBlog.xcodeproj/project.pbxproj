@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		455A0FDC1EF4A0A300D45641 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 455A0FDB1EF4A0A300D45641 /* AppDelegate.swift */; };
-		455A0FDE1EF4A0A300D45641 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 455A0FDD1EF4A0A300D45641 /* ViewController.swift */; };
 		455A0FE11EF4A0A300D45641 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 455A0FDF1EF4A0A300D45641 /* Main.storyboard */; };
 		455A0FE31EF4A0A300D45641 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 455A0FE21EF4A0A300D45641 /* Assets.xcassets */; };
 		455A0FE61EF4A0A300D45641 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 455A0FE41EF4A0A300D45641 /* LaunchScreen.storyboard */; };
+		455A0FEE1EF4A11300D45641 /* TopAppsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 455A0FED1EF4A11300D45641 /* TopAppsTableViewController.swift */; };
+		455A0FF01EF4A30F00D45641 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 455A0FEF1EF4A30F00D45641 /* APIClient.swift */; };
+		455A0FF21EF4AC5900D45641 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 455A0FF11EF4AC5900D45641 /* ViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		455A0FD81EF4A0A300D45641 /* MVVMBlog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MVVMBlog.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		455A0FDB1EF4A0A300D45641 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		455A0FDD1EF4A0A300D45641 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		455A0FE01EF4A0A300D45641 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		455A0FE21EF4A0A300D45641 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		455A0FE51EF4A0A300D45641 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		455A0FE71EF4A0A300D45641 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		455A0FED1EF4A11300D45641 /* TopAppsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TopAppsTableViewController.swift; path = ../TopAppsTableViewController.swift; sourceTree = "<group>"; };
+		455A0FEF1EF4A30F00D45641 /* APIClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		455A0FF11EF4AC5900D45641 /* ViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +59,9 @@
 			isa = PBXGroup;
 			children = (
 				455A0FDB1EF4A0A300D45641 /* AppDelegate.swift */,
-				455A0FDD1EF4A0A300D45641 /* ViewController.swift */,
+				455A0FEF1EF4A30F00D45641 /* APIClient.swift */,
+				455A0FF11EF4AC5900D45641 /* ViewModel.swift */,
+				455A0FED1EF4A11300D45641 /* TopAppsTableViewController.swift */,
 				455A0FDF1EF4A0A300D45641 /* Main.storyboard */,
 				455A0FE21EF4A0A300D45641 /* Assets.xcassets */,
 				455A0FE41EF4A0A300D45641 /* LaunchScreen.storyboard */,
@@ -137,8 +143,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				455A0FDE1EF4A0A300D45641 /* ViewController.swift in Sources */,
+				455A0FEE1EF4A11300D45641 /* TopAppsTableViewController.swift in Sources */,
 				455A0FDC1EF4A0A300D45641 /* AppDelegate.swift in Sources */,
+				455A0FF21EF4AC5900D45641 /* ViewModel.swift in Sources */,
+				455A0FF01EF4A30F00D45641 /* APIClient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
