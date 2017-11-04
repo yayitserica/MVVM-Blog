@@ -16,7 +16,7 @@ class APIClient: NSObject {
     func fetchAppList(completion: @escaping ([NSDictionary]?) -> Void) {
         
         //3 - unwrap our API endpoint
-        guard let url = URL(string: "https://rss.itunes.apple.com/api/v1/us/ios-apps/top-free/100/explicit/json") else {
+        guard let url = URL(string: "https://rss.itunes.apple.com/api/v1/br/ios-apps/top-free/all/100/explicit.json") else {
             print("Error unwrapping URL"); return }
         
         //4 - create a session and dataTask on that session to get data/response/error
